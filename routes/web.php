@@ -23,6 +23,12 @@ Route::get('/logout', function () {
     return view('login'); 
 });
 
+
+
+Route::view('checking the process','register');
+
+
+
 Route::view('register','register');
 Route::post('check_login',[LoginController::class,'check_login']);
 Route::post('register',[LoginController::class,'register']);
