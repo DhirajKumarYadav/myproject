@@ -25,9 +25,7 @@ Route::get('/logout', function () {
 
 
 
-Route::view('checking the process','register');
-
-
+this is a new checking;
 
 Route::view('register','register');
 Route::post('check_login',[LoginController::class,'check_login']);
